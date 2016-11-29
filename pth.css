@@ -206,13 +206,17 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo {
-	position: absolute;
+	position: relative;
 	top: 100px;
+	z-index: 2;
 }
 
-#userinfo ul {
-	display: inline-box;
+#userinfo_username {
+	position: absolute;
+	top: -90px;
+	right: 0;
 }
+
 
 #userinfo_major {
 }
@@ -227,9 +231,6 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #userinfo_minor li a {
 }
 
-#userinfo_username {
-	
-}
 
 #userinfo_username .brackets:before {
 	content: "[";
