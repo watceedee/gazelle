@@ -56,7 +56,6 @@ a[onclick]:focus {
 
 a[onclick]:active {
 	outline: 0;
-/*	background: url(images/load.gif) 100% 4px no-repeat; */
 }
 
 a[onclick^="AddArtistField"]:focus, a[onclick^="AddArtistField"]:active {
@@ -90,18 +89,6 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 .size3, .size4, .size5, .size6, .size7 {
 	font-family: sans-serif;
-}
-
-li {
-	margin: 5px 15px;
-}
-
-input {
-	padding: 2px 3px;
-}
-
-textarea {
-	padding: 2px 3px;
 }
 
 img {
@@ -260,10 +247,6 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #userinfo ul li {
 	display: inline;
-	margin: 0 0.1em;
-	line-height: 20px;
-	vertical-align: middle;
-	padding: 0px;
 }
 
 #userinfo a, #alerts a {
