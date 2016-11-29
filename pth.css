@@ -221,8 +221,12 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #userinfo {
 	position: absolute;
 	top: 100px;
-	
 }
+
+#userinfo ul {
+	display: inline-box;
+}
+
 #userinfo_major {
 }
 #userinfo_stats {
