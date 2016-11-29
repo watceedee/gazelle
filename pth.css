@@ -25,11 +25,6 @@ table tbody, .main_column, .sidebar, .box, .thin, .pad, #threadpoll, #poll {
 	color: #444;
 }
 
-.brackets {
-	background: #444;
-	border: 1px solid #000 #fff #fff #000;
-}
-
 /* Common elements */
 
 a {
@@ -230,9 +225,6 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 #userinfo_major {
 }
-#userinfo_username {
-
-}
 #userinfo_stats {
 }
 #userinfo_stats a {
@@ -242,6 +234,18 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #userinfo_minor {
 }
 #userinfo_minor li a {
+}
+
+#userinfo_username {
+	
+}
+
+#userinfo_username .brackets:before {
+	content: "[";
+}
+
+#userinfo_username .brackets:after {
+	content: "]";
 }
 
 
@@ -1006,6 +1010,13 @@ tr.torrent .bookmark > a:after {
 
 #requests .forum_post textarea { /* overriding the inline 80-character monospace */
 	max-width: 409px;
+}
+
+.linkbox .brackets:before,
+.linkbox .brackets:after,
+.top10_quantity_links .brackets:before,
+.top10_quantity_links .brackets:after {
+	color: #FCFCFC;
 }
 
 .field_div {
