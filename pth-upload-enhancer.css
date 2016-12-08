@@ -10,6 +10,7 @@
 }
 
 .pth-upload-drop-target.active {
+	color: inherit;
 	background: linear-gradient(to right, transparent 0%, transparent 49%, #080 50%, transparent 51%, transparent 100%);
 	background-size: 200%;
 	animation: pth-active 2s linear infinite;
