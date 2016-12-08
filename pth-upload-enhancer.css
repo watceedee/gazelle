@@ -13,7 +13,7 @@
 
 .pth-upload-drop-target.active {
 	background: linear-gradient(to right, #800 0%, #080 100%);
-	animation: pth-active 3s linear infinite;	
+	animation: pth-active 1s linear infinite;	
 }
 
 .pth-upload-drop-target.done {	
