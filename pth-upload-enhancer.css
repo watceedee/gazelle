@@ -5,9 +5,7 @@
     font-size: 16px;
     z-index: 10;
     text-align: center;
-    padding: 8px;
     position: relative;
-    background: #800;
 }
 
 .pth-upload-drop-target.active {
@@ -21,6 +19,7 @@
 	background: #080;
 }
 
+.pth-upload-drop-target,
 #upload input[type=file] {
 	background: #800;
 	color: #fff;
