@@ -19,6 +19,7 @@
 #upload input[type=file].done,
 .pth-upload-drop-target.done {	
 	background: #080;
+	color: #fff;
 }
 
 .pth-upload-drop-target,
