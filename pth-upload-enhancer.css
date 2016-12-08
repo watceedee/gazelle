@@ -16,6 +16,16 @@
 	animation: pth-active 2s linear infinite;
 }
 
+.pth-upload-drop-target.active::after {
+	content:'';
+	border-left: 1px solid #000;
+	margin-left:10px;
+	display: block;
+	height: 12px;
+	display: inline-block;
+	animation: pth-rotate .7s infinite linear;  	
+}
+
 #upload input[type=file].done,
 .pth-upload-drop-target.done {	
 	background: #080;
@@ -38,6 +48,16 @@
 #musicbrainz_tr,
 #musicbrainz_popup {
     display: none;
+}
+
+
+@keyframes pth-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes pth-active { 
