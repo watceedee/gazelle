@@ -11,9 +11,6 @@
 
 .pth-upload-drop-target.active {
 	color: inherit;
-	background: linear-gradient(to right, transparent 0%, transparent 49%, #080 50%, transparent 51%, transparent 100%);
-	background-size: 200%;
-	animation: pth-active 2s linear infinite;
 }
 
 .pth-upload-drop-target.active::after {
@@ -50,7 +47,6 @@
     display: none;
 }
 
-
 @keyframes pth-rotate {
   0% {
     transform: rotate(0deg);
@@ -58,10 +54,4 @@
   100% {
     transform: rotate(360deg);
   }
-}
-
-@keyframes pth-active { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
 }
