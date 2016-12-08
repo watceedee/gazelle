@@ -31,8 +31,24 @@
 
 @keyframes pth-active { 
     0%{background: linear-gradient(to right, #800 0%, #080 100%)}
+    5%{background: linear-gradient(to right, #080 0%, #800 10%, #080 100%)}
+    10%{background: linear-gradient(to right, #080 0%, #800 20%, #080 100%)}
+    15%{background: linear-gradient(to right, #080 0%, #800 30%, #080 100%)}
+    20%{background: linear-gradient(to right, #080 0%, #800 40%, #080 100%)}
     25%{background: linear-gradient(to right, #080 0%, #800 50%, #080 100%)}
+    30%{background: linear-gradient(to right, #080 0%, #800 60%, #080 100%)}
+    35%{background: linear-gradient(to right, #080 0%, #800 70%, #080 100%)}
+    40%{background: linear-gradient(to right, #080 0%, #800 80%, #080 100%)}
+    45%{background: linear-gradient(to right, #080 0%, #800 90%, #080 100%)}
     50%{background: linear-gradient(to right, #080 0%, #800 100%)}
+    55%{background: linear-gradient(to right, #800 0%, #080 10%, #800 100%)}
+    60%{background: linear-gradient(to right, #800 0%, #080 20%, #800 100%)}
+    65%{background: linear-gradient(to right, #800 0%, #080 30%, #800 100%)}
+    70%{background: linear-gradient(to right, #800 0%, #080 40%, #800 100%)}
     75%{background: linear-gradient(to right, #800 0%, #080 50%, #800 100%)}
+    80%{background: linear-gradient(to right, #800 0%, #080 60%, #800 100%)}
+    85%{background: linear-gradient(to right, #800 0%, #080 70%, #800 100%)}
+    90%{background: linear-gradient(to right, #800 0%, #080 80%, #800 100%)}
+    95%{background: linear-gradient(to right, #800 0%, #080 90%, #800 100%)}
     100%{background: linear-gradient(to right, #800 0%, #080 100%)}
 }
