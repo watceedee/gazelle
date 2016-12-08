@@ -12,7 +12,7 @@
 }
 
 .pth-upload-drop-target.active {
-	background: linear-gradient(270deg, transparent 0%, transparent 49%, #080 50%, transparent 51%, transparent 100%)
+	background: linear-gradient(270deg, transparent 0%, transparent 49%, #080 50%, transparent 51%, transparent 100%);
 	background-size: 200%;
 	animation: pth-active 1s cubic-bezier(0.4, 0, 1, 1) infinite;
 }
