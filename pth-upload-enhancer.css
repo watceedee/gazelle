@@ -16,9 +16,18 @@
 	animation: pth-active 2s linear infinite;
 }
 
+#upload input[type=file].done,
 .pth-upload-drop-target.done {	
 	background: #080;
 }
+
+#upload input[type=file] {
+	background: #800;
+	color: #fff;
+	padding: 10px;	
+}
+
+
 
 #upload #dnu_header + p + p,
 #title_tr input + p,
