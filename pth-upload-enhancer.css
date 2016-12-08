@@ -14,7 +14,7 @@
 .pth-upload-drop-target.active {
 	background: linear-gradient(270deg, #800, #080);
 	background-size: 400% 400%;
-	animation: active .5s linear infinite;	
+	animation: pth-active 1s linear infinite;	
 }
 
 .pth-upload-drop-target.done {	
@@ -30,7 +30,7 @@
     display: none;
 }
 
-@keyframes active { 
+@keyframes pth-active { 
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
