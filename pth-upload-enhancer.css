@@ -10,6 +10,7 @@
 }
 
 .pth-upload-drop-target.active {
+	background: inherit;
 	color: inherit;
 }
 
