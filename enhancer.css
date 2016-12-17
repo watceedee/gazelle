@@ -1,4 +1,4 @@
-.pth-upload-drop-target {
+.upload-image-drop-target {
     width: 532px;
     height: 30px;
     line-height: 30px;
@@ -10,12 +10,12 @@
 	border: 1px solid #aBaAa9;
 }
 
-.pth-upload-drop-target.active {
+.upload-image-drop-target.active {
 	background: inherit;
 	color: inherit;
 }
 
-.pth-upload-drop-target.active::after {
+.upload-image-drop-target.active::after {
 	content:'';
 	border-left: 1px solid #000;
 	margin-left:10px;
@@ -26,12 +26,12 @@
 }
 
 #upload input[type=file].done,
-.pth-upload-drop-target.done {	
+.upload-image-drop-target.done {	
 	background: #080;
 	color: #fff;
 }
 
-.pth-upload-drop-target,
+.upload-image-drop-target,
 #upload input[type=file] {
 	background: #800;
 	color: #fff;
