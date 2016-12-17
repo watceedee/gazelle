@@ -5,6 +5,7 @@
 	padding: 4px 12px;
 	background: rgba(0,0,0,.5);
 	color: #fff;
+	cursor: pointer;
 }
 
 .upload-image-drop-target {
