@@ -1,3 +1,15 @@
+.box_albumart .rehost-btn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	padding: 2px 8px;	
+}
+
+.box_albumart img:hover + .rehost-btn {
+	display: block;
+}
+
 .upload-image-drop-target {
     width: 532px;
     height: 30px;
