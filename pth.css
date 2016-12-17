@@ -53,10 +53,23 @@ a[onclick^="AddArtistField"]:active {
     background: transparent !important;
     padding: 0 !important;
 }
+
 a[href^="http"],
-a[href^="https"] {
-    padding: 0 10px 0 0;
-    background: url(images/external.png) 100% 4px no-repeat;
+a[href^="https"]{
+	position: relative;
+	padding-right: 10px;
+}
+
+
+a[href^="http"]::after, 
+a[href^="https"]::after {
+    content: '➜';
+    font-size: 9pt;
+    top: -3px;
+    right: 0px;
+    position: absolute;
+    color: #c00;
+    transform: rotate(-45deg);
 }
 
 h1,
@@ -1158,12 +1171,6 @@ ul.collage_images a img {
 	display: block !important;
 	margin: 0 !important;
 	width: 627px;
-}
-
-#upload input[name^=logfiles] {
-	background: #800;
-	color: #fff;
-	padding: 10px;	
 }
 
 .box .yadg_div {
