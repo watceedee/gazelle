@@ -1,15 +1,10 @@
 .box_albumart .rehost-btn {
 	position: absolute;
-	top: 0;
-	left: 0;
-	display: none;
-	padding: 2px 8px;
-	background: rgba(0,0,0,.8);
+	top: 5px;
+	left: 5px;
+	padding: 4px 12px;
+	background: rgba(0,0,0,.5);
 	color: #fff;
-}
-
-.box_albumart img:hover + .rehost-btn {
-	display: block;
 }
 
 .upload-image-drop-target {
