@@ -8,6 +8,15 @@
 	cursor: pointer;
 }
 
+.box_albumart .rehost-btn.active {
+	cursor: default;
+}
+
+
+.box_albumart .rehost-btn.done {
+	cursor: default;
+}
+
 .upload-image-drop-target {
     width: 532px;
     height: 30px;
@@ -25,6 +34,7 @@
 	color: inherit;
 }
 
+.box_albumart .rehost-btn.active::after,
 .upload-image-drop-target.active::after {
 	content:'';
 	border-left: 1px solid #000;
