@@ -12,6 +12,9 @@
 	cursor: default;
 }
 
+box_albumart .rehost-btn.active::after {
+	color: #fff;
+}
 
 .box_albumart .rehost-btn.done {
 	cursor: default;
