@@ -13,7 +13,7 @@
 }
 
 box_albumart .rehost-btn.active::after {
-	color: #fff;
+	border-color: #fff !important;
 }
 
 .box_albumart .rehost-btn.done {
