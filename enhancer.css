@@ -12,7 +12,7 @@
 	cursor: default;
 }
 
-box_albumart .rehost-btn.active::after {
+.box_albumart .rehost-btn.active::after {
 	border-color: #fff !important;
 }
 
