@@ -13,10 +13,12 @@
 }
 
 .ge-settings .label {
+	display: inline-block;
 	font-size: 18px;	
 }
 
 .ge-settings .icon {
+	display: inline-block;
 	font-size: 24px;
 }
 
