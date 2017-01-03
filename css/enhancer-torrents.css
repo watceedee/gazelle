@@ -1,6 +1,6 @@
 @import url('https://watceedee.github.io/gazelle/css/enhancer-base.css');
 
-.box_albumart .rehost-btn {
+.box_albumart .ge-rehost-btn {
 	position: absolute;
 	top: 5px;
 	left: 5px;
@@ -10,14 +10,14 @@
 	cursor: pointer;
 }
 
-.box_albumart .rehost-btn.active {
+.box_albumart .ge-rehost-btn.ge-active {
 	cursor: default;
 }
 
-.box_albumart .rehost-btn.active::after {
+.box_albumart .ge-rehost-btn.ge-active::after {
 	border-color: #fff !important;
 }
 
-.box_albumart .rehost-btn.done {
+.box_albumart .ge-rehost-btn.ge-done {
 	cursor: default;
 }
