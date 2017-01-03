@@ -1,15 +1,17 @@
 .ge-settings {
 	position: fixed;
 	left: 0;
-	top: 50%;
+	top: 50px;
 }
 
 .ge-settings::after {
 	content: '⚙';
 	font-size: 24px;
-	background: rgba(0,0,0,.8);
-	color: #fff;
-	padding: 2px 8px;
+	background: rgba(0,0,0,.7);
+	color: #fc0;
+	padding: 1px 4px;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
 }
 
 .ge-has-spinner-when-active.ge-active::after {
