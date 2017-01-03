@@ -2,14 +2,14 @@
 	position: fixed;
 	left: 0;
 	top: 50%;
-	background: rgba(0,0,0,.8);
-	color: #fff;
-	padding: 2px 8px;
-	transform: rotate(90deg);
 }
 
 .ge-settings::after {
 	content: '⚙ GE Settings';
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	padding: 2px 8px;
+	transform: rotate(90deg);
 }
 
 .ge-has-spinner-when-active.ge-active::after {
