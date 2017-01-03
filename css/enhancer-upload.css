@@ -1,6 +1,6 @@
 @import url('https://watceedee.github.io/gazelle/css/enhancer-base.css');
 
-.upload-image-drop-target {
+.ge-upload-image-drop-target {
     width: 532px;
     height: 30px;
     line-height: 30px;
@@ -12,18 +12,18 @@
 	border: 1px solid #aBaAa9;
 }
 
-.upload-image-drop-target.active {
+.ge-upload-image-drop-target.ge-active {
 	background: inherit;
 	color: inherit;
 }
 
-#upload input[type=file].done,
-.upload-image-drop-target.done {	
+#upload input[type=file].ge-done,
+.ge-upload-image-drop-target.ge-done {	
 	background: #080;
 	color: #fff;
 }
 
-.upload-image-drop-target,
+.ge-upload-image-drop-target,
 #upload input[type=file] {
 	background: #800;
 	color: #fff;
