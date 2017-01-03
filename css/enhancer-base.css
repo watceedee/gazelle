@@ -1,3 +1,17 @@
+.ge-settings {
+	position: fixed;
+	left: 0;
+	top: 50%;
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	padding: 2px 8px;
+	transform: rotate(90deg);
+}
+
+.ge-settings::after {
+	content: '⚙ GE Settings';
+}
+
 .ge-has-spinner-when-active.ge-active::after {
 	content:'';
 	border-left: 1px solid #000;
