@@ -10,11 +10,11 @@
 	cursor: pointer;
 	height: 26px;
 	line-height: 26px;
+	transition: left .5s ease;
 }
 
 .ge-settings:hover {
 	left: 0px;
-	transition: left .5s ease;
 }
 
 .ge-settings .label {
