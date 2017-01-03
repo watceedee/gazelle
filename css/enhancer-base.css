@@ -5,11 +5,11 @@
 }
 
 .ge-settings::after {
-	content: '⚙ GE Settings';
+	content: '⚙';
+	font-size: 24px;
 	background: rgba(0,0,0,.8);
 	color: #fff;
 	padding: 2px 8px;
-	transform: rotate(90deg);
 }
 
 .ge-has-spinner-when-active.ge-active::after {
