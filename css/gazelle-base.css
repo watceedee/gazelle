@@ -1121,7 +1121,7 @@ ul.collage_images a img {
 	width: 400px;
 }
 
-
+#upload input[name=imagefile],
 #upload input[name=file_input],
 #upload input[name='logfiles[]'],
 #upload #title,
