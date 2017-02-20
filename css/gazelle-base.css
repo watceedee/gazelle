@@ -1130,7 +1130,8 @@ ul.collage_images a img {
 #upload #release_desc,
 #upload #album_desc,
 #upload #image {
-	width: 544px;
+	width: 552px;
+	box-sizing:border-box;
 }
 
 #upload #content .brackets {
