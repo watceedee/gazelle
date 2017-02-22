@@ -72,17 +72,6 @@ a[href^="https"]::after {
     transform: rotate(-45deg);
 }
 
-h1,
-h2,
-h3 {
-    margin: 5px 0px;
-    font-family: sans-serif;
-}
-h1 a:hover,
-h2 a:hover,
-h3 a:hover {
-    text-decoration: underline;
-}
 .box h1,
 .box h2,
 .box h3,
