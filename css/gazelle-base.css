@@ -156,7 +156,7 @@ ul.thin li {
 #header {
     width: 1050px;
     margin: 0 auto;
-    height: 150px;
+    height: 95px;
     padding: 0 0 0 0;
 	position: relative;
 }
@@ -312,9 +312,12 @@ logo a:focus {
 	color: #eee;
 	width: 100%;
 	box-sizing: border-box;
-	padding: 4px 8px;
-	    text-transform: uppercase;	
-	
+	padding: 6px 12px;
+	text-transform: uppercase;
+}
+
+#userinfo ul li a:hover {
+	background: #473626;
 }
 
 #userinfo ul#userinfo_stats {
@@ -325,8 +328,9 @@ logo a:focus {
     position: absolute;
     display: block;
     width: 1050px;
-    top: 110px;
+    top: 55px;
 }
+
 #searchbars ul {
     display: flex;
     flex-flow: row nowrap;
