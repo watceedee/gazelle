@@ -211,7 +211,7 @@ logo a:focus {
 }
 #menu {
     background: #2B2117;
-    height: 50px;
+    height: 36px;
     position: fixed;
 	z-index: 10;
     top: 0;
@@ -240,8 +240,8 @@ logo a:focus {
 #menu ul li a {
     color: #EBEAE9;
     outline: none;
-    height: 50px;
-    line-height: 50px;
+    height: 36px;
+    line-height: 36px;
     padding: 0 8px;
     display: block;
     text-decoration: none;
@@ -263,7 +263,7 @@ logo a:focus {
 }
 #userinfo {
     position: absolute;
-    top: 50px;
+    top: 36px;
     height: 30px;
     width: 1050px;
     z-index: 2;
@@ -328,7 +328,7 @@ logo a:focus {
     position: absolute;
     display: block;
     width: 1050px;
-    top: 110px;
+    top: 96px;
 }
 #searchbars ul {
     display: flex;
