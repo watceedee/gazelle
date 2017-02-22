@@ -231,7 +231,7 @@ logo a:focus {
     justify-content: flex-end;
     width: 1050px;
     margin: 0 auto;
-	padding-right: 50px;
+	padding-right: 100px;
 }
 #menu ul li {
     list-style: none;
@@ -254,7 +254,10 @@ logo a:focus {
 
 #menu ul li a:active,
 #menu ul li a:focus,
-#menu ul li a:hover {
+#menu ul li a:hover,
+#userinfo:active,
+#userinfo:focus,
+#userinfo:hover {
     background: #473626;
 }
 
@@ -267,12 +270,6 @@ logo a:focus {
 	z-index: 11;
 	padding-top: 50px;
 	width: 50px;
-}
-
-#userinfo:active,
-#userinfo:focus,
-#userinfo:hover {
-	background:#473626;
 }
 
 #userinfo:hover ul {
@@ -296,12 +293,10 @@ logo a:focus {
 #userinfo ul {
     float: left;
     clear: both;
-    background: #473626;
+    background: #2B2117;
     display: none;
     position: relative;
-	left: -94px;
-	border-left: 4px solid #2B2117;
-	border-right: 4px solid #2B2117;
+	left: -90px;
 }
 
 #userinfo ul li {
@@ -320,10 +315,6 @@ logo a:focus {
 	padding: 4px 8px;
 	    text-transform: uppercase;	
 	
-}
-
-#userinfo ul#userinfo_minor {
-	border-bottom: 4px solid #2B2117;
 }
 
 #userinfo ul#userinfo_stats {
