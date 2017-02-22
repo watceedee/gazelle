@@ -63,13 +63,12 @@ a[href^="https"]{
 
 a[href^="http"]::after, 
 a[href^="https"]::after {
-    content: '➜';
+    content: '\2197';
     font-size: 9pt;
     top: -3px;
     right: 0px;
     position: absolute;
     color: #c00;
-    transform: rotate(-45deg);
 }
 
 h1,
@@ -1308,7 +1307,7 @@ input[type=checkbox]:checked::before {
 
 input[type=checkbox]:not(:checked)::after,
 input[type=checkbox]:checked::after {
-  content: '✔';
+  content: '\2713';
   position: absolute;
   top: -2px; 
   left: 1px;
