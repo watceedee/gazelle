@@ -731,6 +731,7 @@ tr.torrent td {
 .torrent span {
     font-weight: normal;
     float: right;
+	clear: right;
 }
 .nobr {
     white-space: nowrap;
