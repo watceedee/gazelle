@@ -218,6 +218,7 @@ logo a:focus {
     left: 0;
     right: 0;
     font-size: 11pt;
+    text-transform: uppercase;	
 }
 #menu a {
     color: #EBEAE9;
@@ -235,6 +236,17 @@ logo a:focus {
     list-style: none;
     display: block;
 }
+
+#menu ul li.active a {
+    color: #FCC963;
+}
+
+#menu ul li a:active,
+#menu ul li a:focus,
+#menu ul li a:hover {
+    background: rgba(255,160,96,.2);
+}
+
 
 #userinfo {
 	position: absolute;
@@ -266,100 +278,15 @@ logo a:focus {
 
 #userinfo ul li {
 	float: left;
-	clear: both
-}
-
-#userinfo_username li a,
-#userinfo_minor li a,
-#menu ul li a {
-    color: #EBEAE9;
-    outline: none;
-    height: 50px;
-    line-height: 50px;
-    padding: 0 8px;
-    display: block;
-    text-decoration: none;
-}
-#userinfo li.active a,
-#menu ul li.active a {
-    color: #FCC963;
-}
-
-
-#userinfo_username li a:active,
-#userinfo_username li a:focus,
-#userinfo_username li a:hover,
-#userinfo_minor li a:active,
-#userinfo_minor li a:focus,
-#userinfo_minor li a:hover,
-#menu ul li a:active,
-#menu ul li a:focus,
-#menu ul li a:hover {
-    background: rgba(255,160,96,.2);
-}
-#userinfo {
-    position: absolute;
-    top: 50px;
-    height: 30px;
-    width: 1050px;
-    z-index: 2;
-    background: #473626;
-}
-#userinfo_minor,
-#userinfo_username,
-#menu {
-    text-transform: uppercase;
-}
-#userinfo_username,
-#userinfo_minor {
-    position: absolute;
-    top: 0;
-}
-#userinfo_minor {
-    right: 0;
-}
-#userinfo_major li,
-#userinfo_stats li,
-#userinfo_username li,
-#userinfo_minor li {
+	clear: both;
     list-style: none;
     display: block;
-    float: left;
 }
-#userinfo_username li a,
-#userinfo_minor li a {
-    color: #EBEAE9;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 6px;
-}
+
 #userinfo_stats {
-    position: absolute;
-    top: 30px;
+	display: none;
 }
-#userinfo_major li,
-#userinfo_stats li {
-    margin: 0 4px;
-}
-#userinfo_major li a,
-#userinfo_stats li span,
-#userinfo_stats li a {
-    color: #EBEAE9;
-    height: 30px;
-    line-height: 30px;
-}
-#userinfo_major li a:hover,
-#userinfo_stats li a:hover {
-    color:#FCC963;
-}
-#userinfo_major {
-    position: absolute;
-    top: 30px;
-    right: 0;
-}
-#userinfo_major li {
-    float: left;
-}
+
 #searchbars {
     position: absolute;
     display: block;
