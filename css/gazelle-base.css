@@ -270,6 +270,11 @@ logo a:focus {
 	width: 20px;
 }
 
+#userinfo:hover {
+	width: auto;
+	height: auto;
+}
+
 #userinfo::before {
     content: '\2630';
     position: absolute;
