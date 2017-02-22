@@ -255,7 +255,7 @@ logo a:focus {
 #menu ul li a:active,
 #menu ul li a:focus,
 #menu ul li a:hover {
-    background: rgba(255,160,96,.2);
+    background: #473626;
 }
 
 
@@ -265,14 +265,19 @@ logo a:focus {
 	right: 0;
 	height: 0;
 	z-index: 11;
-	overflow: hidden;
 	padding-top: 50px;
-	width: 20px;
+	width: 50px;
 }
 
+#userinfo:active,
+#userinfo:focus,
 #userinfo:hover {
-	width: auto;
-	height: auto;
+	background:#473626;
+}
+
+#userinfo:hover ul {
+	display: block;
+	width: 140px;
 }
 
 #userinfo::before {
@@ -282,15 +287,21 @@ logo a:focus {
     right: 0;
     font-size: 13pt;
     line-height: 50px;
-	padding: 0 5px;
+	width: 50px;
+	text-align: center;
+	
+	
 }
 
 #userinfo ul {
     float: left;
     clear: both;
-    background: #2B2117;
-    display: block;
-    width: 100%;
+    background: #473626;
+    display: none;
+    position: relative;
+	left: -94px;
+	border-left: 4px solid #2B2117;
+	border-right: 4px solid #2B2117;
 }
 
 #userinfo ul li {
@@ -307,6 +318,12 @@ logo a:focus {
 	width: 100%;
 	box-sizing: border-box;
 	padding: 4px 8px;
+	    text-transform: uppercase;	
+	
+}
+
+#userinfo ul#userinfo_minor {
+	border-bottom: 4px solid #2B2117;
 }
 
 #userinfo ul#userinfo_stats {
