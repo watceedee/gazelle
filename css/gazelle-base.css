@@ -231,6 +231,7 @@ logo a:focus {
     justify-content: flex-end;
     width: 1050px;
     margin: 0 auto;
+	padding-right: 50px;
 }
 #menu ul li {
     list-style: none;
@@ -276,6 +277,7 @@ logo a:focus {
     right: 0;
     font-size: 13pt;
     line-height: 50px;
+	padding: 0 5px;
 }
 
 #userinfo ul {
