@@ -296,11 +296,20 @@ logo a:focus {
 #userinfo ul li {
 	float: left;
 	clear: both;
-    list-style: none;
-    display: block;
+    	list-style: none;
+    	display: block;
+	width: 100%;
 }
 
-#userinfo_stats {
+#userinfo ul li a {
+	display: block;
+	color: #eee;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 4px 8px;
+}
+
+#userinfo ul#userinfo_stats {
 	display: none;
 }
 
