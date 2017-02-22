@@ -156,7 +156,7 @@ ul.thin li {
 #header {
     width: 1050px;
     margin: 0 auto;
-    height: 134px;
+    height: 116px;
     padding: 0 0 0 0;
 	overflow: hidden;
 }
@@ -264,7 +264,7 @@ logo a:focus {
 #userinfo {
     position: absolute;
     top: 36px;
-    height: 30px;
+    height: 24px;
     width: 1050px;
     z-index: 2;
     background: #473626;
@@ -293,14 +293,11 @@ logo a:focus {
 #userinfo_username li a,
 #userinfo_minor li a {
     color: #EBEAE9;
-    height: 30px;
-    line-height: 30px;
+    height: 24px;
+    line-height: 24px;
     padding: 0 6px;
 }
-#userinfo_stats {
-    position: absolute;
-    top: 30px;
-}
+
 #userinfo_major li,
 #userinfo_stats li {
     margin: 0 4px;
@@ -309,16 +306,20 @@ logo a:focus {
 #userinfo_stats li span,
 #userinfo_stats li a {
     color: #EBEAE9;
-    height: 30px;
-    line-height: 30px;
+    height: 24px;
+    line-height: 24px;
 }
 #userinfo_major li a:hover,
 #userinfo_stats li a:hover {
     color:#FCC963;
 }
+#userinfo_stats,
 #userinfo_major {
     position: absolute;
-    top: 30px;
+    top: 24px;
+}
+
+#userinfo_major {
     right: 0;
 }
 #userinfo_major li {
@@ -328,7 +329,7 @@ logo a:focus {
     position: absolute;
     display: block;
     width: 1050px;
-    top: 96px;
+    top: 84px;
 }
 #searchbars ul {
     display: flex;
@@ -347,8 +348,8 @@ logo a:focus {
     padding: 0 10px;
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
-    height: 30px;
-    line-height: 30px;
+    height: 24px;
+    line-height: 24px;
     color: #EBEAE9;
 }
 
