@@ -194,7 +194,7 @@ ul.thin li {
     display: none;
 }
 #logo {
-    position: fixed;
+    position: absolute;
     z-index: 11;
 }
 #logo a {
@@ -212,7 +212,7 @@ logo a:focus {
 #menu {
     background: #2B2117;
     height: 36px;
-    position: fixed;
+    position: absolute;
 	z-index: 10;
     top: 0;
     left: 0;
