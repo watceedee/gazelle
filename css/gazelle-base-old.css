@@ -728,8 +728,8 @@ tr.torrent td {
 .group_torrent span {
     float: right;
 }
+
 .torrent span {
-    font-weight: normal;
     float: right;
 	clear: right;
 }
@@ -1199,11 +1199,11 @@ ul.collage_images a img {
 .layout.recent .colhead + tr {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
+	padding: 4px 0 0 4px;
 }
 
 .layout.recent .colhead + tr td {
-	padding: 0;
+	padding: 0 4px 4px 0;
 }
 
 .hide_torrents,
