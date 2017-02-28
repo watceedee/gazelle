@@ -347,6 +347,7 @@ logo a:focus {
     height: 24px;
     line-height: 24px;
     color: #EBEAE9;
+	width: 170px;
 }
 
 #autocomplete {
