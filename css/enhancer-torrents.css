@@ -21,3 +21,9 @@
 .box_albumart .ge-rehost-btn.ge-done {
 	cursor: default;
 }
+
+.edit_form input[name=imagefile] {
+	width: 594px;
+	padding: 10px;
+	box-sizing: border-box;
+}
