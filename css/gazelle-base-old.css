@@ -1028,7 +1028,7 @@ div.sidebar #event_div {
     margin-left: -50px;
 }
 .sidebar img {
-    max-width: 270px;
+    max-width: 270px !important;
 }
 .news_post img,
 .wiki_article img {
