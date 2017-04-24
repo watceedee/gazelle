@@ -13,3 +13,7 @@
 	top: 5px;
 	left: 5px;
 }
+
+#searchbars input {
+	width: 120px;
+}
