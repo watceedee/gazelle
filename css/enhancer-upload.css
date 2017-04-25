@@ -34,7 +34,6 @@
 #upload input[hasdropzone=true] + div,
 #upload #dnu_header + p + p,
 #title_tr input + p,
-#releasetype_tr + tr + tr,
 #genre_tags ~ ul,
 #musicbrainz_tr,
 #musicbrainz_popup {
